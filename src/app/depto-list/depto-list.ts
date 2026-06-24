@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class DeptoList {
   depto = {
-    "imagen": "assets/images.jpg",
+    "imagen": "depto1.jpg",
     "direccion":"Uriburu 740",
     "estado":"Alquiler",
     "precio":"$650.000",
