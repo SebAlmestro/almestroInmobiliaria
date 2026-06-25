@@ -9,26 +9,12 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr *ngFor="let depto of deptos">
             <td><img [src]="depto.imagen" [alt]="depto.direccion"></td>
             <td>{{depto.direccion}}</td>
             <td>{{depto.estado}}</td>
             <td>{{depto.precio}}</td>
             <td>{{depto.dimension}}</td>
-        </tr>
-        <tr>
-            <td><img [src]="depto.imagen" [alt]="depto.direccion"></td>
-            <td>Alsina 332</td>
-            <td>Venta</td>
-            <td>50.000USD</td>
-            <td>70m2</td>
-        </tr>
-        <tr>
-            <td><img [src]="depto.imagen" [alt]="depto.direccion"></td>
-            <td>Roca 1152</td>
-            <td>Alquiler</td>
-            <td>500.000</td>
-            <td>63m2</td>
         </tr>
     </tbody>
 </table>
