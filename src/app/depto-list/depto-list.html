@@ -15,6 +15,7 @@
             <td>{{depto.estado}}</td>
             <td>{{depto.precio}}</td>
             <td>{{depto.dimension}}</td>
+            <td *ngIf="depto.estado=="Venta"">En venta</td>
         </tr>
     </tbody>
 </table>
